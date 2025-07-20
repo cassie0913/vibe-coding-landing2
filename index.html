@@ -1,0 +1,298 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding – 在30天内发布你的最小可行产品（MVP）</title>
+    <meta name="description" content="Vibe Coding - 在30天内发布你的最小可行产品（MVP）。学习如何快速构建和发布你的第一个产品。">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-text">Vibe Coding</span>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <main class="hero">
+            <div class="hero-container">
+                <!-- Left Side Content -->
+                <div class="hero-left">
+                    <h1 class="hero-title">
+                        <span class="title-main">Build Your MVP in 30 Days with Vibe Coding</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        A course designed to help you release your MVP fast—with weekly coaching, coding patterns, and real-world tools.
+                    </p>
+
+                    <!-- Interest Count Text -->
+                    <div class="interest-count">
+                        <span class="count-icon">🚀</span>
+                        <span class="count-text">
+                            <span id="totalSignups">0</span> people have signed up for early access!
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Right Side Form -->
+                <div class="hero-right">
+                    <div class="signup-form-hero">
+                        <h3 class="form-title">Get Early Access</h3>
+                        <p class="form-subtitle">Be the first to know when we launch</p>
+                        
+                        <form class="hero-form" id="heroForm">
+                            <div class="form-group">
+                                <input type="text" id="heroName" name="name" placeholder="Your name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" id="heroEmail" name="email" placeholder="Your email" required>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="subscribeUpdates" name="subscribe">
+                                    <span class="checkmark"></span>
+                                    Subscribe to updates, release notes, newsletter
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="hero-submit-button">
+                                <span class="button-text">Notify Me</span>
+                                <span class="loading-spinner" style="display: none;">Sending...</span>
+                            </button>
+                        </form>
+
+                        <div class="form-message" id="heroFormMessage"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2 class="section-title">Perfect for Startup Founders & Indie Hackers</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>30-Day MVP Launch</h3>
+                    <p>Go from idea to live product in just 30 days with proven patterns and real-world tools</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Weekly Coaching</h3>
+                    <p>Get personalized guidance from experienced founders who've built successful MVPs</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛠️</div>
+                    <h3>Modern Tech Stack</h3>
+                    <p>Learn the latest tools and frameworks that scale from MVP to production</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Launch Ready</h3>
+                    <p>Deploy with confidence using battle-tested deployment strategies and best practices</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form Section -->
+        <section class="form-section" id="signupForm">
+            <div class="form-container">
+                <h2 class="section-title">Join the Waitlist</h2>
+                <p class="form-description">Be among the first to get access when we launch. Limited spots available.</p>
+                
+                <form class="signup-form" id="interestForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="subscribeForm" name="subscribe">
+                            <span class="checkmark"></span>
+                            Subscribe to updates and early access notifications
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">
+                        <span class="button-text">Join Waitlist</span>
+                        <span class="loading-spinner" style="display: none;">Joining...</span>
+                    </button>
+                </form>
+
+                <div class="form-message" id="formMessage"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Vibe Coding. From idea to MVP in 30 days.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding – 在30天内发布你的最小可行产品（MVP）</title>
+    <meta name="description" content="Vibe Coding - 在30天内发布你的最小可行产品（MVP）。学习如何快速构建和发布你的第一个产品。">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-text">Vibe Coding</span>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <main class="hero">
+            <div class="hero-container">
+                <!-- Left Side Content -->
+                <div class="hero-left">
+                    <h1 class="hero-title">
+                        <span class="title-main">Build Your MVP in 30 Days with Vibe Coding</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        A course designed to help you release your MVP fast—with weekly coaching, coding patterns, and real-world tools.
+                    </p>
+
+                    <!-- Interest Count Text -->
+                    <div class="interest-count">
+                        <span class="count-icon">🚀</span>
+                        <span class="count-text">
+                            <span id="totalSignups">0</span> people have signed up for early access!
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Right Side Form -->
+                <div class="hero-right">
+                    <div class="signup-form-hero">
+                        <h3 class="form-title">Get Early Access</h3>
+                        <p class="form-subtitle">Be the first to know when we launch</p>
+                        
+                        <form class="hero-form" id="heroForm">
+                            <div class="form-group">
+                                <input type="text" id="heroName" name="name" placeholder="Your name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" id="heroEmail" name="email" placeholder="Your email" required>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="subscribeUpdates" name="subscribe">
+                                    <span class="checkmark"></span>
+                                    Subscribe to updates, release notes, newsletter
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="hero-submit-button">
+                                <span class="button-text">Notify Me</span>
+                                <span class="loading-spinner" style="display: none;">Sending...</span>
+                            </button>
+                        </form>
+
+                        <div class="form-message" id="heroFormMessage"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2 class="section-title">Perfect for Startup Founders & Indie Hackers</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>30-Day MVP Launch</h3>
+                    <p>Go from idea to live product in just 30 days with proven patterns and real-world tools</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Weekly Coaching</h3>
+                    <p>Get personalized guidance from experienced founders who've built successful MVPs</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛠️</div>
+                    <h3>Modern Tech Stack</h3>
+                    <p>Learn the latest tools and frameworks that scale from MVP to production</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Launch Ready</h3>
+                    <p>Deploy with confidence using battle-tested deployment strategies and best practices</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form Section -->
+        <section class="form-section" id="signupForm">
+            <div class="form-container">
+                <h2 class="section-title">Join the Waitlist</h2>
+                <p class="form-description">Be among the first to get access when we launch. Limited spots available.</p>
+                
+                <form class="signup-form" id="interestForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="subscribeForm" name="subscribe">
+                            <span class="checkmark"></span>
+                            Subscribe to updates and early access notifications
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">
+                        <span class="button-text">Join Waitlist</span>
+                        <span class="loading-spinner" style="display: none;">Joining...</span>
+                    </button>
+                </form>
+
+                <div class="form-message" id="formMessage"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Vibe Coding. From idea to MVP in 30 days.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+>>>>>>> 1c91fd7f6a78733f222f646d2a928cbfa3893d34
+</html> 
